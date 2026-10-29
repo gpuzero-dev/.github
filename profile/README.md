@@ -20,10 +20,19 @@
 
 The open-source pieces under GPU Zero. Each one is useful on its own, without the others and without an account.
 
-| | |
-|---|---|
-| **[Ravex](https://github.com/gpuzero-dev/ravex)** | Checkpoint and resume for PyTorch, from one decorator on the function that trains. Kill the process, run the same command, and it picks up where it stopped. Pure Python. `pip install ravex` |
-| **[Moonclip](https://github.com/gpuzero-dev/moonclip)** | The checkpoint engine underneath: Rust with Python bindings, saves only what changed as compressed deltas, writes in the background, to a local path or any S3 bucket. `pip install moonclip` |
-| **[Smith](https://github.com/gpuzero-dev/smith)** | The agent on a training node. Takes jobs from a queue and runs the scripts it was configured with, never commands it was sent. |
+<table>
+  <tr>
+    <td><b><a href="https://github.com/gpuzero-dev/ravex">Ravex</a></b></td>
+    <td>Checkpoint and resume for PyTorch, from one decorator on the function that trains. Kill the process, run the same command, and it picks up where it stopped. Pure Python. <code>pip install ravex</code></td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/gpuzero-dev/moonclip">Moonclip</a></b></td>
+    <td>The checkpoint engine underneath: Rust with Python bindings, saves only what changed as compressed deltas, writes in the background, to a local path or any S3 bucket. <code>pip install moonclip</code></td>
+  </tr>
+  <tr>
+    <td><b><a href="https://github.com/gpuzero-dev/smith">Smith</a></b></td>
+    <td>The agent on a training node. Takes jobs from a queue and runs the scripts it was configured with, never commands it was sent.</td>
+  </tr>
+</table>
 
 Ravex and Moonclip are Apache-2.0.
