@@ -35,4 +35,4 @@ The open-source pieces under GPU Zero. Each one is useful on its own, without th
   </tr>
 </table>
 
-Ravex and Moonclip are Apache-2.0.
+Ravex, Moonclip and Smith are Apache-2.0.
